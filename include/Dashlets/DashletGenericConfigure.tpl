@@ -116,6 +116,7 @@
     </tr>
     <tr>
 	    <td colspan='4' align='right'>
+	    	<input type='submit' class='button' value='Reset' onclick='this.form.reset();return false;'>
 	        <input type='submit' class='button' value='{$strings.save}'>
 	    </td>    
 	</tr>
